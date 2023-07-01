@@ -63,7 +63,7 @@ def handle_file(service_type, video_path, value):
                 f.write(response_file_data)
                 data_length = data_length - len(response_file_data)
                 
-        print(f'Compression completed. Compressed video saved as {RESULT_PATH}/compressed{count_files}.mp4')
+        print(f'Compression completed. Compressed video saved as {RESULT_PATH}/compressed({count_files}).mp4')
 
 
 
